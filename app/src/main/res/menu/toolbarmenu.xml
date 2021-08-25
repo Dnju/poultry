@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item
+        android:title="about"
+        android:id="@+id/id_about" />
+    <item
+        android:title="share"
+        android:id="@+id/id_share" />
+
+    <item
+        android:title="exit"
+        android:id="@+id/id_exit" />
+
+    <item
+        android:title="setting"
+        android:icon="@drawable/ic_settings_24"
+        app:showAsAction="always"
+        android:id="@+id/id_setting" />
+
+    <item
+        android:title="search"
+        android:icon="@drawable/ic_search_24"
+        app:showAsAction="always"
+        android:id="@+id/id_search" />
+
+</menu>
